@@ -1,10 +1,10 @@
 pipeline{
-agent any
-stages{
-steps{
-script{
-pintln "Welcome"
-}
-}
-}
-}
+  agent any
+    stages{
+      steps{
+        script{
+              pintln "Welcome"
+              }
+           }
+        }
+        }
